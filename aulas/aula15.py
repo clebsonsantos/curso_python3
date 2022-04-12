@@ -14,6 +14,9 @@ number_2 = 350
 number_3 = 1
 divisao = number_1 / number_2
 
+nome = "Clebson"
+sobrenome = "Santos"
+
 print('{:.2f}'.format(divisao))
 
 print(f'{number_3:0>10}')
@@ -21,3 +24,7 @@ print(f'{number_3:0>10}')
 print(f'{number_2:0>10}')
 
 print(f'{number_2:.2f}')
+
+print(nome.lower())
+print(sobrenome.upper())
+print(nome.title(), sobrenome.title())
